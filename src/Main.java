@@ -27,7 +27,6 @@ public class Main {
 
             sc = new Scanner(System.in);
             response = Integer.valueOf(sc.nextLine());
-            if (response == 4 ){
 
 
                 System.out.println("Enter the first value: ");
@@ -35,20 +34,8 @@ public class Main {
                 oper1 = Double.valueOf(sc1.nextLine());
                 System.out.println("Enter the second value: ");
                 sc2 = new Scanner(System.in);
+                oper2 = Double.valueOf(sc2.nextLine());
 
-                if (sc2.nextLine() != "0"){
-                    oper2 = Double.valueOf(sc2.nextLine());
-                }else {
-                    System.out.println("enter a non-zero value");
-                }
-            } else {
-
-                System.out.println("Enter the first value: ");
-                sc1 = new Scanner(System.in);
-                oper1 = Double.valueOf(sc1.nextLine());
-                System.out.println("Enter the second value: ");
-                sc2 = new Scanner(System.in);
-            }
 
 
             switch(response) {

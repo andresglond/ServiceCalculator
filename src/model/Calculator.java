@@ -65,7 +65,10 @@ public class Calculator {
         return  number1 * number2;
     }
     public double dividedBy() {
-        return  number1 / number2;
+        if (number2 == 0) {
+            System.out.println("enter a non-zero value");
+        }
+        return number1 / number2;
     }
     public double nthPower() {
         double resultado = 1;
